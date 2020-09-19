@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="demo.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand font-weight-bold" href="#">Library</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#desp">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#newsletter">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Log In
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Sign up</a>
+              <a class="dropdown-item" href="#">Sign In</a>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar Ends -->
+
+  <!-- Top Section With Video Background -->
+  <section id="top container-fluid">
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="Library_books.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Welcome to Virtual Library!</h1>
+            <p class="lead mb-0">Presnted by OrganiCod3rs</p>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+  <!-- Top Section Ends Here -->
+
+  <!-- Share Section -->
+  <section id="share">
+    <h1 class="share-text text-light d-flex justify-content-center text-center">SHARE YOUR BOOK</h1>
+    <div class="share-box d-flex align-items-center justify-content-center ">
+      <div class="box or-book ">
+        <h3 class="text-light d-flex justify-content-center">Original Book</h3>
+        <img src="book1.jpg" alt="">
+        <h5 class="text-light">Please the fill up the form:</h5>
+        <form>
+          <div class="form-group">
+            <label for="name"></label>
+            <input type="text" class="form-control" id="name" placeholder="Name of the Book">
+          </div>
+          <div class="form-group">
+            <label for="author"></label>
+            <input type="text" class="form-control" id="author" placeholder=" Author/Publisher">
+          </div>
+          <label class="text-light for=" exampleFormControlInput1">Any other description (OPTIONAL)</label>
+          <textarea name="" id="" cols="60" rows="5"></textarea>
+          <div class="form-group text-light">
+            <label for="file">Attach COVER IMAGE of the book</label>
+            <input type="file" class="form-control-file" id="file">
+          </div>
+        </form>
+      </div>
+
+      <div class="box pdf">
+        <h3 class="text-light d-flex justify-content-center ">Pdf Of the Book</h3>
+        <img src="pdf.jpg" alt="">
+        <h5 class="text-light">Please the fill up the form:</h5>
+        <form>
+          <div class="form-group">
+            <label for="name"></label>
+            <input type="text" class="form-control" id="name" placeholder="Name of the Book">
+          </div>
+          <div class="form-group">
+            <label for="author"></label>
+            <input type="text" class="form-control" id="author" placeholder="Author/Publisher">
+          </div>
+          <label class="text-light for=" exampleFormControlInput1">Any other description (OPTIONAL)</label>
+          <textarea name="" id="" cols="60" rows="5"></textarea>
+          <div class="form-group text-light">
+            <label for="file">Attach PDF of the book</label>
+            <input type="file" class="form-control-file" id="file">
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Share Section Ends Here -->
+
+
+  <!-- Find Section -->
+  <section id="search">
+    <div class="serach-heading d-flex justify-content-center">
+      <h1 class="search-text text-light d-flex justify-content-center text-center">SEARCH FOR ANY BOOK</h1>
+    </div>
+    <div class="share-box d-flex align-items-center justify-content-center ">
+
+      <div class="box pdf">
+        <h3 class="text-light d-flex justify-content-center">Browse Books</h3>
+        <img src="searching.jpg" alt="">
+        <h5 class="text-light">Please the fill up the form:</h5>
+        <form>
+          <div class="form-group">
+            <label for="name"></label>
+            <input type="text" class="form-control" id="name" placeholder="Name of the Book">
+          </div>
+          <div class="form-group">
+            <label for="author"></label>
+            <input type="text" class="form-control" id="author" placeholder="Author/Publisher">
+          </div>
+          <label class="text-light for=" exampleFormControlInput1">Any other description (OPTIONAL)</label>
+          <textarea name="" id="" cols="60" rows="5"></textarea>
+          <button type="button" class="btn btn-outline-secondary">Download PDF</button>
+
+        </form>
+      </div>
+      <div class="box original-book">
+        <h3 class="text-light d-flex justify-content-center">Send Request</h3>
+        <img src="library.jpg" alt="">
+        <h5 class="text-light">Please the fill up the form:</h5>
+        <form>
+          <div class="form-group">
+            <label for="name"></label>
+            <input type="text" class="form-control" id="name" placeholder="Name of the Book">
+          </div>
+          <div class="form-group">
+            <label for="author"></label>
+            <input type="text" class="form-control" id="author" placeholder="Author/Publisher">
+          </div>
+          <label class="text-light for=" exampleFormControlInput1">Any other description (OPTIONAL)</label>
+          <textarea name="" id="" cols="60" rows="5"></textarea>
+          <button type="button" class="btn btn-outline-secondary">Send a request</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <!-- Find Section Ends-->
+
+  <!-- Footer Section -->
+  <footer class="page-footer font-small special-color-dark pt-5">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fa-2x fa fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fa-2x fa fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fa-2x fa fa-github"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fa-2x fa fa-linkedin"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fa-2x fa fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> organicod3rs.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer Ends -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
